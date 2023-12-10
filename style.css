@@ -1,0 +1,63 @@
+
+/* Calculator container styling */
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.calculator {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Display input styling */
+.display {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 24px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Operator button styling */
+.operator {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  font-size: 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+.operator:hover {
+  background-color: #2980b9;
+}
+
+/* Body styling */
+body {
+  background-color: #e6e6e6;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading styling */
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #3498db;
+}
+
